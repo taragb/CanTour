@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		57565C621BE57DCB00D97558 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 57565C611BE57DCB00D97558 /* Default-568h@2x.png */; settings = {ASSET_TAGS = (); }; };
 		FF143F601AC09EFE0041D95D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF143F5F1AC09EFE0041D95D /* AppDelegate.swift */; };
 		FF143F621AC09EFE0041D95D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF143F611AC09EFE0041D95D /* ViewController.swift */; };
 		FF143F651AC09EFE0041D95D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF143F631AC09EFE0041D95D /* Main.storyboard */; };
@@ -28,13 +29,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		FF143F5A1AC09EFE0041D95D /* SwiftTinderCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftTinderCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57565C611BE57DCB00D97558 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		FF143F5A1AC09EFE0041D95D /* CanTour.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CanTour.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF143F5E1AC09EFE0041D95D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FF143F5F1AC09EFE0041D95D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FF143F611AC09EFE0041D95D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FF143F641AC09EFE0041D95D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FF143F661AC09EFE0041D95D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		FF143F6F1AC09EFE0041D95D /* SwiftTinderCardsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftTinderCardsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF143F6F1AC09EFE0041D95D /* CanTour.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CanTour.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF143F741AC09EFE0041D95D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FF143F751AC09EFE0041D95D /* SwiftTinderCardsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTinderCardsTests.swift; sourceTree = "<group>"; };
 		FF143F7F1AC0A8760041D95D /* DraggableViewBackground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DraggableViewBackground.swift; sourceTree = "<group>"; };
@@ -63,8 +65,9 @@
 		FF143F511AC09EFE0041D95D = {
 			isa = PBXGroup;
 			children = (
-				FF143F5C1AC09EFE0041D95D /* SwiftTinderCards */,
-				FF143F721AC09EFE0041D95D /* SwiftTinderCardsTests */,
+				57565C611BE57DCB00D97558 /* Default-568h@2x.png */,
+				FF143F5C1AC09EFE0041D95D /* CanTour */,
+				FF143F721AC09EFE0041D95D /* CanTourTests */,
 				FF143F5B1AC09EFE0041D95D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -72,13 +75,13 @@
 		FF143F5B1AC09EFE0041D95D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FF143F5A1AC09EFE0041D95D /* SwiftTinderCards.app */,
-				FF143F6F1AC09EFE0041D95D /* SwiftTinderCardsTests.xctest */,
+				FF143F5A1AC09EFE0041D95D /* CanTour.app */,
+				FF143F6F1AC09EFE0041D95D /* CanTour.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FF143F5C1AC09EFE0041D95D /* SwiftTinderCards */ = {
+		FF143F5C1AC09EFE0041D95D /* CanTour */ = {
 			isa = PBXGroup;
 			children = (
 				FF143F5F1AC09EFE0041D95D /* AppDelegate.swift */,
@@ -90,7 +93,7 @@
 				FF143F811AC0A8850041D95D /* DraggableView.swift */,
 				FF143F831AC0D7D10041D95D /* OverlayView.swift */,
 			);
-			path = SwiftTinderCards;
+			path = CanTour;
 			sourceTree = "<group>";
 		};
 		FF143F5D1AC09EFE0041D95D /* Supporting Files */ = {
@@ -101,13 +104,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		FF143F721AC09EFE0041D95D /* SwiftTinderCardsTests */ = {
+		FF143F721AC09EFE0041D95D /* CanTourTests */ = {
 			isa = PBXGroup;
 			children = (
 				FF143F751AC09EFE0041D95D /* SwiftTinderCardsTests.swift */,
 				FF143F731AC09EFE0041D95D /* Supporting Files */,
 			);
-			path = SwiftTinderCardsTests;
+			path = CanTourTests;
 			sourceTree = "<group>";
 		};
 		FF143F731AC09EFE0041D95D /* Supporting Files */ = {
@@ -121,9 +124,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FF143F591AC09EFE0041D95D /* SwiftTinderCards */ = {
+		FF143F591AC09EFE0041D95D /* CanTour */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FF143F791AC09EFE0041D95D /* Build configuration list for PBXNativeTarget "SwiftTinderCards" */;
+			buildConfigurationList = FF143F791AC09EFE0041D95D /* Build configuration list for PBXNativeTarget "CanTour" */;
 			buildPhases = (
 				FF143F561AC09EFE0041D95D /* Sources */,
 				FF143F571AC09EFE0041D95D /* Frameworks */,
@@ -133,14 +136,14 @@
 			);
 			dependencies = (
 			);
-			name = SwiftTinderCards;
+			name = CanTour;
 			productName = SwiftTinderCards;
-			productReference = FF143F5A1AC09EFE0041D95D /* SwiftTinderCards.app */;
+			productReference = FF143F5A1AC09EFE0041D95D /* CanTour.app */;
 			productType = "com.apple.product-type.application";
 		};
-		FF143F6E1AC09EFE0041D95D /* SwiftTinderCardsTests */ = {
+		FF143F6E1AC09EFE0041D95D /* CanTourTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FF143F7C1AC09EFE0041D95D /* Build configuration list for PBXNativeTarget "SwiftTinderCardsTests" */;
+			buildConfigurationList = FF143F7C1AC09EFE0041D95D /* Build configuration list for PBXNativeTarget "CanTourTests" */;
 			buildPhases = (
 				FF143F6B1AC09EFE0041D95D /* Sources */,
 				FF143F6C1AC09EFE0041D95D /* Frameworks */,
@@ -151,9 +154,9 @@
 			dependencies = (
 				FF143F711AC09EFE0041D95D /* PBXTargetDependency */,
 			);
-			name = SwiftTinderCardsTests;
+			name = CanTourTests;
 			productName = SwiftTinderCardsTests;
-			productReference = FF143F6F1AC09EFE0041D95D /* SwiftTinderCardsTests.xctest */;
+			productReference = FF143F6F1AC09EFE0041D95D /* CanTour.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -164,7 +167,7 @@
 			attributes = {
 				LastSwiftMigration = 0700;
 				LastSwiftUpdateCheck = 0700;
-				LastUpgradeCheck = 0620;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Lukasz Gandecki";
 				TargetAttributes = {
 					FF143F591AC09EFE0041D95D = {
@@ -176,7 +179,7 @@
 					};
 				};
 			};
-			buildConfigurationList = FF143F551AC09EFE0041D95D /* Build configuration list for PBXProject "SwiftTinderCards" */;
+			buildConfigurationList = FF143F551AC09EFE0041D95D /* Build configuration list for PBXProject "CanTour" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -189,8 +192,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FF143F591AC09EFE0041D95D /* SwiftTinderCards */,
-				FF143F6E1AC09EFE0041D95D /* SwiftTinderCardsTests */,
+				FF143F591AC09EFE0041D95D /* CanTour */,
+				FF143F6E1AC09EFE0041D95D /* CanTourTests */,
 			);
 		};
 /* End PBXProject section */
@@ -202,6 +205,7 @@
 			files = (
 				FF143F651AC09EFE0041D95D /* Main.storyboard in Resources */,
 				FF143F671AC09EFE0041D95D /* Images.xcassets in Resources */,
+				57565C621BE57DCB00D97558 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,7 +244,7 @@
 /* Begin PBXTargetDependency section */
 		FF143F711AC09EFE0041D95D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FF143F591AC09EFE0041D95D /* SwiftTinderCards */;
+			target = FF143F591AC09EFE0041D95D /* CanTour */;
 			targetProxy = FF143F701AC09EFE0041D95D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -277,6 +281,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -291,7 +296,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -328,7 +333,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -340,9 +345,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = SwiftTinderCards/Info.plist;
+				INFOPLIST_FILE = CanTour/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "thebrain.pro.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = CanTour;
 			};
 			name = Debug;
 		};
@@ -350,9 +356,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = SwiftTinderCards/Info.plist;
+				INFOPLIST_FILE = CanTour/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "thebrain.pro.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = CanTour;
 			};
 			name = Release;
 		};
@@ -370,8 +377,9 @@
 				);
 				INFOPLIST_FILE = SwiftTinderCardsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftTinderCards.app/SwiftTinderCards";
+				PRODUCT_BUNDLE_IDENTIFIER = "thebrain.pro.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = CanTour;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CanTour.app/CanTour";
 			};
 			name = Debug;
 		};
@@ -385,15 +393,16 @@
 				);
 				INFOPLIST_FILE = SwiftTinderCardsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftTinderCards.app/SwiftTinderCards";
+				PRODUCT_BUNDLE_IDENTIFIER = "thebrain.pro.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = CanTour;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CanTour.app/CanTour";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FF143F551AC09EFE0041D95D /* Build configuration list for PBXProject "SwiftTinderCards" */ = {
+		FF143F551AC09EFE0041D95D /* Build configuration list for PBXProject "CanTour" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FF143F771AC09EFE0041D95D /* Debug */,
@@ -402,7 +411,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FF143F791AC09EFE0041D95D /* Build configuration list for PBXNativeTarget "SwiftTinderCards" */ = {
+		FF143F791AC09EFE0041D95D /* Build configuration list for PBXNativeTarget "CanTour" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FF143F7A1AC09EFE0041D95D /* Debug */,
@@ -411,7 +420,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FF143F7C1AC09EFE0041D95D /* Build configuration list for PBXNativeTarget "SwiftTinderCardsTests" */ = {
+		FF143F7C1AC09EFE0041D95D /* Build configuration list for PBXNativeTarget "CanTourTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FF143F7D1AC09EFE0041D95D /* Debug */,

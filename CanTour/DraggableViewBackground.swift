@@ -21,7 +21,7 @@ class DraggableViewBackground: UIView, DraggableViewDelegate {
     let checkButton = UIButton()
     let xButton = UIButton()
     
-    let exampleCardLabels = ["first", "second", "third", "fourth", "last"]
+    let exampleCardLabels = ["Contemporary", "Western", "Asian", "Stanford Family", "Oceania"]
     var loadedCards = NSMutableArray()
     var allCards =  NSMutableArray()
     var cardsLoadedIndex = 0
@@ -64,14 +64,14 @@ class DraggableViewBackground: UIView, DraggableViewDelegate {
     }
     
     func addXButton() {
-        xButton.frame = CGRectMake(60, 485, 59, 59)
+        xButton.frame = CGRectMake(60, 550, 59, 59)
         xButton.setImage(UIImage(named: "xButton"), forState: .Normal)
         xButton.addTarget(self, action: "swipeLeft", forControlEvents: .TouchUpInside)
         addSubview(xButton)
     }
     
     func addCheckButton() {
-        checkButton.frame = CGRectMake(200, 485, 59, 59)
+        checkButton.frame = CGRectMake(200, 550, 59, 59)
         checkButton.setImage(UIImage(named: "checkButton"), forState: .Normal)
         checkButton.addTarget(self, action: "swipeRight",
             forControlEvents: .TouchUpInside)
